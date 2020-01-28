@@ -1,4 +1,55 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px;
+    padding: 25px;
+}
+
 .google-container {
     display:flex;
-    flex-direction: column;
+    flex-direction:column
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    
+}
+
+li {
+    float:left;
+    display:block;
+    text-align:center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+footer{
+    clear:both;
+    position: absolute;
+    left:0;
+    bottom:0;
+    height:50px;
+    width:100%;
+    overflow:hidden;
+}
+
+
+
+.navbar-container
+{
+    display:inline;
+    
+}
+
+.meats-and-taters {
+    justify-content: center;
+    width:100%;
+    align-content:center;
+    display:flex;
 }
