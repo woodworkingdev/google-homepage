@@ -1,0 +1,1 @@
+This project is an attempt to recreate google.  Just a little practice with the basics. 
